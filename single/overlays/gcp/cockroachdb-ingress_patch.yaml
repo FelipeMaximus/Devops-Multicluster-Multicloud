@@ -1,0 +1,8 @@
+spec:
+  rules:
+    - host: cockroachdb.multicloud.cf
+      http:
+        paths:
+          - backend:
+              serviceName: cockroachdb
+              servicePort: 8080
